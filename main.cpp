@@ -83,17 +83,17 @@ int main( int argc, const char** argv)
                             }
 
                             if(count==1)
-                                strcpy(a,"Hello :D ");
+                                strcpy(a,"Bir");
                             else if(count==2)
-                                strcpy(a,"Peace :) ");
+                                strcpy(a,"Eki");
                             else if(count==3)
-                                strcpy(a,"3 it is !!");
+                                strcpy(a,"Ush");
                             else if(count==4)
-                                strcpy(a,"0100");
+                                strcpy(a,"Tort");
                             else if(count==5)
-                                strcpy(a,"FIVE");
+                                strcpy(a,"Bes");
                             else
-                                strcpy(a,"Welcome !!");
+                                strcpy(a,"Bastayik, sandardy sanayik!!");
 
                             putText(img,a,Point(70,70),CV_FONT_HERSHEY_SIMPLEX,3,Scalar(255,0,0),2,8,false);
                             drawContours(img_threshold, contours, i,Scalar(255,255,0),2, 8, vector<Vec4i>(), 0, Point() );
